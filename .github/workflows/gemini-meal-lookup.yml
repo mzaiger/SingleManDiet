@@ -1,0 +1,60 @@
+name: Gemini pool estimate (calories/price)
+
+on:
+  schedule:
+    # Every 4 hours, on the hour (00:00/04:00/08:00/... UTC). GitHub
+    # Actions cron is always UTC, so the actual local hours this lands on
+    # drift by an hour during DST -- still 6 evenly-spaced runs a day.
+    # 10 items/call x 10 calls/run x 6 runs/day = 600 items/day, so the
+    # ~1800-item pool gets a full refresh pass roughly every 3 days.
+    - cron: "0 0 * * 2"
+  workflow_dispatch:
+    inputs:
+      items_per_call:
+        description: "Products bundled into a single Gemini prompt"
+        required: false
+        default: "10"
+      calls_per_run:
+        description: "How many such calls to make this run"
+        required: false
+        default: "10"
+
+concurrency:
+  group: gemini-meal-lookup
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Run Gemini pool estimate
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: |
+          python DataCleaning/gemini_meal_lookup.py \
+            --items-per-call "${{ github.event.inputs.items_per_call || 10 }}" \
+            --calls-per-run "${{ github.event.inputs.calls_per_run || 10 }}"
+
+      - name: Commit updated pool
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add candidate_pool.json
+          git diff --staged --quiet || git commit -m "Gemini pool estimate (calories/price) [automated]"
+          git push

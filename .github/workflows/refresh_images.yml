@@ -1,0 +1,75 @@
+name: Fill missing meal images (manual)
+
+# Step 2 of 2, run by hand: Actions tab > "Fill missing meal images (manual)" > Run workflow.
+# Finds a picture ONLY for meals whose image is empty (the ones "Pull fast food meals"
+# just added), using a DuckDuckGo image search with the restaurant and the item in double
+# quotes ("Olive Garden" "Fettuccine Alfredo"). Meals that already have a picture are not
+# touched. If a run ends early (DuckDuckGo rate limiting or the time budget) just run it
+# again; it carries on with the meals that are still empty.
+on:
+  workflow_dispatch:
+    inputs:
+      retry_failed:
+        description: "Also retry meals where earlier runs found nothing (they are skipped after 3 tries)"
+        type: boolean
+        required: false
+        default: false
+      restaurant:
+        description: "Only this restaurant, exact name (e.g. Olive Garden). Blank = all restaurants"
+        required: false
+        default: ""
+      delay_seconds:
+        description: "Pause between searches, in seconds (higher = gentler on DuckDuckGo)"
+        required: false
+        default: "3"
+      time_budget_minutes:
+        description: "Stop and save after this many minutes (the job limit is 150)"
+        required: false
+        default: "110"
+
+# Same group as the meal pull, so the two never edit meals.json at once.
+concurrency:
+  group: pull-meals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests ddgs
+
+      - name: Fill empty pictures (quoted restaurant + item search)
+        env:
+          RETRY_FAILED: ${{ github.event.inputs.retry_failed }}
+          RESTAURANT: ${{ github.event.inputs.restaurant }}
+          TIME_BUDGET: ${{ github.event.inputs.time_budget_minutes || '110' }}
+          DELAY: ${{ github.event.inputs.delay_seconds || '3' }}
+        run: |
+          args=(--time-budget-minutes "$TIME_BUDGET" --delay "$DELAY")
+          if [ "$RETRY_FAILED" = "true" ]; then args+=(--retry-failed); fi
+          if [ -n "$RESTAURANT" ]; then args+=(--restaurant "$RESTAURANT"); fi
+          python refresh_images.py "${args[@]}"
+
+      - name: Commit updated meals.json
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meals.json
+          git diff --staged --quiet || git commit -m "Fill missing meal images [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
