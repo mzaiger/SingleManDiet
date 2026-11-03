@@ -312,6 +312,11 @@
 
   /* Meals + options row: the slider grid on the left, price cap and diet filters beside it. */
   .row-meals{ align-items:flex-end; gap:18px 28px; }
+  .cap-stack{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
   .opts{
     display:flex;
     flex-wrap:wrap;
@@ -1172,12 +1177,21 @@
     <div class="row row-meals">
       <div class="meal-picker" id="meal-picker" role="group" aria-label="Meals each day. Slide each meal to no meal, frozen or fast food."></div>
       <div class="opts">
-        <div class="field">
-          <label for="max-per-meal" class="max-price-label">
-            <input type="checkbox" id="max-per-meal-enabled" />
-            <span>Max per meal ($)</span>
-          </label>
-          <input type="number" id="max-per-meal" value="8" min="0" max="50" step="0.25" disabled />
+        <div class="cap-stack">
+          <div class="field">
+            <label for="max-frozen" class="max-price-label">
+              <input type="checkbox" id="max-frozen-enabled" />
+              <span>Max per frozen ($)</span>
+            </label>
+            <input type="number" id="max-frozen" value="5" min="0" max="50" step="0.25" disabled />
+          </div>
+          <div class="field">
+            <label for="max-fast" class="max-price-label">
+              <input type="checkbox" id="max-fast-enabled" />
+              <span>Max per fast ($)</span>
+            </label>
+            <input type="number" id="max-fast" value="8" min="0" max="50" step="0.25" disabled />
+          </div>
         </div>
         <div class="field diet-filters">
           <label class="diet-checkbox-label" for="healthy-only">
@@ -1301,7 +1315,32 @@ let activePools = null;
 let activeCapInfo = newCapInfo();
 
 function newCapInfo(){
-  return { capActive: false, maxPrice: 0, healthyOnly: false, vegetarianOnly: false, fallbacks: { cap: [], healthy: [], vegetarian: [] }, usedKeys: [] };
+  return { caps: { frozen: { active: false, max: 0 }, fast: { active: false, max: 0 } }, healthyOnly: false, vegetarianOnly: false, fallbacks: { cap: [], healthy: [], vegetarian: [] }, usedKeys: [] };
+}
+
+// The price cap for one pool, or 0 when that pool has no cap.
+function capOf(capInfo, source){
+  const c = capInfo && capInfo.caps && capInfo.caps[source];
+  return (c && c.active && c.max > 0) ? c.max : 0;
+}
+
+// Weeks saved before the two separate caps existed carried a single cap: apply it to both pools.
+function migrateCapInfo(ci){
+  ci = Object.assign(newCapInfo(), ci || {});
+  if(!ci.caps || !ci.caps.frozen || !ci.caps.fast){
+    const old = { active: !!ci.capActive, max: ci.maxPrice || 0 };
+    ci.caps = { frozen: Object.assign({}, old), fast: Object.assign({}, old) };
+  }
+  return ci;
+}
+
+// Reads both cap boxes: an input only counts when its checkbox is ticked and it holds a positive number.
+function readCaps(){
+  const one = id => {
+    const max = parseFloat(document.getElementById('max-' + id).value);
+    return { active: document.getElementById('max-' + id + '-enabled').checked && !isNaN(max) && max > 0, max: isNaN(max) ? 0 : max };
+  };
+  return { frozen: one('frozen'), fast: one('fast') };
 }
 
 // Weeks the user has saved to this browser, plus which tab is showing.
@@ -1342,12 +1381,12 @@ function usedKeysFor(sel){
   return used;
 }
 
-// Applies the max-per-meal cap and the Healthy / Vegetarian filters (if any) to every raw
+// Applies each pool's max-per-meal cap and the Healthy / Vegetarian filters (if any) to every raw
 // sub-pool, same rule at generation time and when restoring a saved week. Each filter falls
 // back (and says so) when too few meals would remain, rather than leaving the week
 // ungeneratable. Desserts (fast food late dinners) are only price-capped and vegetarian-
 // filtered when something is left: Gemini never marks a dessert healthy.
-function computeActivePools(maxPrice, capRequested, healthyOnly, vegetarianOnly){
+function computeActivePools(caps, healthyOnly, vegetarianOnly){
   const MIN_NEEDED = { breakfast: 1, regular: 2, dessert: 1 };
   const out = { frozen: {}, fast: {} };
   const fb = { cap: [], healthy: [], vegetarian: [] };
@@ -1356,8 +1395,9 @@ function computeActivePools(maxPrice, capRequested, healthyOnly, vegetarianOnly)
       let list = rawPools[src][key];
       const need = MIN_NEEDED[key];
       const tag = src + ':' + key;
-      if(capRequested){
-        const f = list.filter(m => getMealPriceNumber(m) <= maxPrice);
+      const capMax = caps && caps[src] && caps[src].active ? caps[src].max : 0;
+      if(capMax > 0){
+        const f = list.filter(m => getMealPriceNumber(m) <= capMax);
         if(key === 'dessert'){ if(f.length) list = f; }
         else if(f.length >= need) list = f;
         else fb.cap.push(tag);
@@ -1380,8 +1420,9 @@ function computeActivePools(maxPrice, capRequested, healthyOnly, vegetarianOnly)
 }
 
 function poolsForCapInfo(capInfo){
-  if(!capInfo) return computeActivePools(0, false, false, false);
-  return computeActivePools(capInfo.maxPrice, capInfo.capActive, capInfo.healthyOnly, capInfo.vegetarianOnly);
+  if(!capInfo) return computeActivePools(null, false, false);
+  capInfo = migrateCapInfo(capInfo);
+  return computeActivePools(capInfo.caps, capInfo.healthyOnly, capInfo.vegetarianOnly);
 }
 
 /* ---------------- Saved weeks / persistence ---------------- */
@@ -1443,7 +1484,7 @@ function restoreCurrentWeek(){
   if(!payload || !Array.isArray(payload.days) || !payload.days.length) return false;
 
   currentTargetGlobal = payload.target || 1500;
-  activeCapInfo = Object.assign(newCapInfo(), payload.capInfo || {});
+  activeCapInfo = migrateCapInfo(payload.capInfo);
   activePools = poolsForCapInfo(activeCapInfo);
 
   currentWeek = payload.days.map(day => ({
@@ -1468,8 +1509,10 @@ function saveFormData(){
     loseRate: document.getElementById('lose-per-week').value,
     caloriesBurned: document.getElementById('calories-burned').value,
     calorieTarget: document.getElementById('calorie-target').value,
-    maxPerMeal: document.getElementById('max-per-meal').value,
-    maxPerMealEnabled: document.getElementById('max-per-meal-enabled').checked,
+    maxFrozen: document.getElementById('max-frozen').value,
+    maxFrozenEnabled: document.getElementById('max-frozen-enabled').checked,
+    maxFast: document.getElementById('max-fast').value,
+    maxFastEnabled: document.getElementById('max-fast-enabled').checked,
     healthyOnly: document.getElementById('healthy-only').checked,
     vegetarianOnly: document.getElementById('vegetarian-only').checked,
     mealSel: mealSel
@@ -1488,10 +1531,14 @@ function loadFormData(){
     if(data.loseRate !== undefined) document.getElementById('lose-per-week').value = data.loseRate;
     if(data.caloriesBurned !== undefined) document.getElementById('calories-burned').value = data.caloriesBurned;
     if(data.calorieTarget !== undefined) document.getElementById('calorie-target').value = data.calorieTarget;
-    if(data.maxPerMeal !== undefined) document.getElementById('max-per-meal').value = data.maxPerMeal;
-    const enabledCheckbox = document.getElementById('max-per-meal-enabled');
-    enabledCheckbox.checked = !!data.maxPerMealEnabled;
-    document.getElementById('max-per-meal').disabled = !enabledCheckbox.checked;
+    // (an older single "max per meal" setting becomes both caps)
+    ['frozen', 'fast'].forEach(id => {
+      const cap = data['max' + id.charAt(0).toUpperCase() + id.slice(1)] !== undefined ? data['max' + id.charAt(0).toUpperCase() + id.slice(1)] : data.maxPerMeal;
+      const on = data['max' + id.charAt(0).toUpperCase() + id.slice(1) + 'Enabled'] !== undefined ? data['max' + id.charAt(0).toUpperCase() + id.slice(1) + 'Enabled'] : data.maxPerMealEnabled;
+      if(cap !== undefined) document.getElementById('max-' + id).value = cap;
+      document.getElementById('max-' + id + '-enabled').checked = !!on;
+      document.getElementById('max-' + id).disabled = !on;
+    });
     document.getElementById('healthy-only').checked = !!data.healthyOnly;
     document.getElementById('vegetarian-only').checked = !!data.vegetarianOnly;
     if(data.mealSel && typeof data.mealSel === 'object'){
@@ -1648,11 +1695,9 @@ function updatePoolCount(){
     ['frozen', 'fast'].forEach(src => { set('pool-filtered-' + src, '\u2013'); set('pool-total-' + src, '\u2013'); });
     return;
   }
-  const maxPrice = parseFloat(document.getElementById('max-per-meal').value);
-  const capActive = document.getElementById('max-per-meal-enabled').checked && !isNaN(maxPrice) && maxPrice > 0;
   const healthyOnly = document.getElementById('healthy-only').checked;
   const vegetarianOnly = document.getElementById('vegetarian-only').checked;
-  const act = computeActivePools(maxPrice, capActive, healthyOnly, vegetarianOnly);
+  const act = computeActivePools(readCaps(), healthyOnly, vegetarianOnly);
   const used = usedKeysFor(mealSel);
   ['frozen', 'fast'].forEach(src => {
     let total = 0, filtered = 0;
@@ -1861,13 +1906,11 @@ function generateWeek(){
   }
 
   const target = parseInt(document.getElementById('calorie-target').value, 10) || 1500;
-  const maxPrice = parseFloat(document.getElementById('max-per-meal').value);
-  const maxPriceEnabled = document.getElementById('max-per-meal-enabled').checked;
-  const capActive = maxPriceEnabled && !isNaN(maxPrice) && maxPrice > 0;
+  const caps = readCaps();
   const healthyOnly = document.getElementById('healthy-only').checked;
   const vegetarianOnly = document.getElementById('vegetarian-only').checked;
 
-  const pools = computeActivePools(maxPrice, capActive, healthyOnly, vegetarianOnly);
+  const pools = computeActivePools(caps, healthyOnly, vegetarianOnly);
 
   const empty = plan.find(p => !poolForSlot(p.source, p.slot, pools).length);
   if(empty){
@@ -1881,7 +1924,7 @@ function generateWeek(){
 
   activePools = pools;
   currentTargetGlobal = target;
-  activeCapInfo = { capActive, maxPrice, healthyOnly, vegetarianOnly, fallbacks: pools.fallbacks, usedKeys };
+  activeCapInfo = { caps, healthyOnly, vegetarianOnly, fallbacks: pools.fallbacks, usedKeys };
 
   currentWeek = DAY_NAMES.map(dayName => ({ dayName, ...buildDay(target, plan, pools) }));
 
@@ -1892,12 +1935,12 @@ function generateWeek(){
   persistCurrentWeek();
 }
 
-function countOverCap(days, capActive, maxPrice){
-  if(!capActive) return 0;
+function countOverCap(days, capInfo){
   let count = 0;
   days.forEach(day => {
     Object.values(day.meals).forEach(meal => {
-      if(getMealPriceNumber(meal) > maxPrice) count++;
+      const cap = capOf(capInfo, getMealSource(meal));
+      if(cap > 0 && getMealPriceNumber(meal) > cap) count++;
     });
   });
   return count;
@@ -1927,7 +1970,9 @@ function fallbackFlags(capInfo){
 function updateBudgetSummary(capInfo, overCapCount){
   const summary = document.getElementById('budget-summary');
   const flags = fallbackFlags(capInfo);
-  const capActive = capInfo.capActive, maxPrice = capInfo.maxPrice;
+  capInfo = migrateCapInfo(capInfo);
+  const capActive = capOf(capInfo, 'frozen') > 0 || capOf(capInfo, 'fast') > 0;
+  const capText = ['frozen', 'fast'].filter(s => capOf(capInfo, s) > 0).map(s => `$${capOf(capInfo, s).toFixed(2)} per ${s} meal`).join(' and ');
 
   const dietNotes = [];
   if(flags.healthy) dietNotes.push('not enough healthy meals in a pool you chose \u2014 some non-healthy meals were included instead');
@@ -1937,13 +1982,13 @@ function updateBudgetSummary(capInfo, overCapCount){
   if(capActive && flags.cap){
     summary.style.display = 'inline-block';
     summary.className = 'budget-summary off-range';
-    summary.textContent = `Not enough meals priced at $${maxPrice.toFixed(2)} or under in a pool you chose \u2014 showing the closest calorie matches instead, some may be over cap.${dietNote}`;
+    summary.textContent = `Not enough meals priced within your cap (${capText}) in a pool you chose \u2014 showing the closest calorie matches instead, some may be over cap.${dietNote}`;
     return;
   }
   if(capActive && overCapCount > 0){
     summary.style.display = 'inline-block';
     summary.className = 'budget-summary off-range';
-    summary.textContent = `${overCapCount} meal${overCapCount === 1 ? '' : 's'} this week landed over the $${maxPrice.toFixed(2)} cap.${dietNote}`;
+    summary.textContent = `${overCapCount} meal${overCapCount === 1 ? '' : 's'} this week landed over your cap (${capText}).${dietNote}`;
     return;
   }
 
@@ -2105,8 +2150,14 @@ function renderCurrentOrSaved(){
   const goalCaloriesPerMeal = totals.mealCount > 0 ? Math.round(weekGoalCals / totals.mealCount) : 0;
   document.getElementById('week-goal').innerHTML = `${weekGoalCals.toLocaleString()} cal<br><span class="per-meal">${goalCaloriesPerMeal.toLocaleString()} cal/meal</span>`;
   const costGoalEl = document.getElementById('week-cost-goal');
-  if(capInfo && capInfo.capActive){
-    costGoalEl.innerHTML = `$${(capInfo.maxPrice * totals.mealCount).toFixed(2)}<br><span class="per-meal">$${capInfo.maxPrice.toFixed(2)}/meal</span>`;
+  // Week cost goal: each capped meal counts at its own pool's cap (meals in an uncapped pool are left out).
+  let goalCost = 0, goalMeals = 0;
+  days.forEach(day => Object.values(day.meals).forEach(meal => {
+    const cap = capOf(capInfo, getMealSource(meal));
+    if(cap > 0){ goalCost += cap; goalMeals++; }
+  }));
+  if(goalMeals > 0){
+    costGoalEl.innerHTML = `$${goalCost.toFixed(2)}<br><span class="per-meal">$${(goalCost / goalMeals).toFixed(2)}/meal</span>`;
   }else{
     costGoalEl.textContent = 'No cap';
   }
@@ -2115,7 +2166,7 @@ function renderCurrentOrSaved(){
   document.getElementById('save-bar-top').style.display = editable ? 'flex' : 'none';
 
   if(editable){
-    updateBudgetSummary(activeCapInfo, countOverCap(days, activeCapInfo.capActive, activeCapInfo.maxPrice));
+    updateBudgetSummary(activeCapInfo, countOverCap(days, activeCapInfo));
   }else{
     document.getElementById('budget-summary').style.display = 'none';
   }
@@ -2375,17 +2426,20 @@ document.getElementById('activity-level').addEventListener('change', () => { rec
 document.getElementById('lose-per-week').addEventListener('input', () => { recalcDailyTarget(); saveFormData(); });
 document.getElementById('calories-burned').addEventListener('input', () => { recalcDailyTarget(); saveFormData(); });
 document.getElementById('calorie-target').addEventListener('input', saveFormData);
-document.getElementById('max-per-meal').addEventListener('input', () => { saveFormData(); updatePoolCount(); });
+['frozen', 'fast'].forEach(id => {
+  document.getElementById('max-' + id).addEventListener('input', () => { saveFormData(); updatePoolCount(); });
+});
 document.getElementById('healthy-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
 document.getElementById('vegetarian-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
-document.getElementById('max-per-meal-enabled').addEventListener('change', function(){
-  const input = document.getElementById('max-per-meal');
-  input.disabled = !this.checked;
-  if(this.checked && (!input.value || parseFloat(input.value) <= 0)){
-    input.value = '8';
-  }
-  saveFormData();
-  updatePoolCount();
+const CAP_DEFAULTS = { frozen: '5', fast: '8' };
+['frozen', 'fast'].forEach(id => {
+  document.getElementById('max-' + id + '-enabled').addEventListener('change', function(){
+    const input = document.getElementById('max-' + id);
+    input.disabled = !this.checked;
+    if(this.checked && (!input.value || parseFloat(input.value) <= 0)) input.value = CAP_DEFAULTS[id];
+    saveFormData();
+    updatePoolCount();
+  });
 });
 document.getElementById('save-week').addEventListener('click', saveCurrentWeek);
 document.getElementById('save-week-top').addEventListener('click', saveCurrentWeek);
