@@ -203,7 +203,7 @@
   }
 
   /* Weight + Age (two 120px fields) span exactly the width of the meal sliders (298px). */
-  .controls .row:not(.row-meals):not(.row-go){ column-gap:50px; }
+  .controls .row:not(.row-meals):not(.row-go){ column-gap:58px; }
 
   @media (max-width:640px){
     .controls{
@@ -1314,12 +1314,11 @@ let activeTab = 'current';
 //   breakfast   -> breakfast items
 //   brunch      -> breakfast items AND regular items
 //   lunch/dinner-> regular items
-//   late dinner -> fast food: regular items AND desserts (shakes, slushes, malts...) / frozen: regular items
+//   late dinner -> regular items (fast food desserts are never planned; they stay in meals.json and on products.html)
 function subPoolKeys(source, slot){
   if(slot === 'breakfast') return ['breakfast'];
   if(slot === 'brunch') return ['breakfast', 'regular'];
-  if(slot === 'late dinner') return source === 'fast' ? ['regular', 'dessert'] : ['regular'];
-  return ['regular'];
+    return ['regular'];
 }
 
 function poolForSlot(source, slot, pools){
@@ -1641,7 +1640,7 @@ function wireMealPicker(){
 // draw from. Each circle narrows to the sub-pools its slots actually use:
 //   frozen only at breakfast        -> frozen breakfast items only
 //   fast only at lunch / dinner     -> regular fast food items only
-//   fast only at late dinner        -> regular items + desserts
+//   fast only at late dinner        -> regular items
 //   no frozen (or no fast) meals    -> that circle reads 0 / 0
 function updatePoolCount(){
   const set = (id, text) => { const el = document.getElementById(id); if(el) el.textContent = text; };
