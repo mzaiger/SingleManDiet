@@ -311,20 +311,18 @@
   }
 
   /* Meals + options row: the slider grid on the left, price cap and diet filters beside it. */
-  .controls .row.row-meals{ align-items:flex-end; column-gap:44px; }  /* 44px = same column gap as the rows above, so the price caps line up under Activity level / Daily calorie target */
+  .controls .row.row-meals{ align-items:flex-end; column-gap:44px; }   /* 58px = same column gap as the rows above, so the price caps line up under Activity level / Daily calorie target */
   .cap-stack{
     display:flex;
     flex-direction:column;
     gap:10px;
   }
   .opts{
-    display:grid;
-    grid-auto-flow:column;
-    grid-template-rows:auto auto;
-    grid-template-columns:120px auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    gap:14px 20px;
     column-gap:50px;
-    row-gap:10px;
-    align-items:end;
   }
 
   button#generate{
