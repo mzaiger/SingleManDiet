@@ -1151,15 +1151,17 @@
 
   
   @media (max-width:640px){
-    /* Row 1: Max per frozen | Max per fast. Row 2: Healthy + Vegetarian stacked on the
-       left, Start date on the right. */
+    /* Row 1: Max per frozen | Max per fast. Row 2: Healthy under frozen, Vegetarian under fast.
+       Row 3: Start date. */
     .opts{ display:grid; grid-template-columns:1fr 1fr; gap:12px 20px; width:100%; align-items:start; justify-content:stretch; }
+    .diet-filters{ display:contents; }
     .opts .field-cap-frozen{ order:1; }
     .opts .field-cap-fast{ order:2; }
-    .opts .diet-filters{ order:3; align-self:center; }
-    .opts .field-start{ order:4; }
+    .opts label[for="healthy-only"]{ order:3; }
+    .opts label[for="vegetarian-only"]{ order:4; }
+    .opts .field-start{ order:5; grid-column:1 / -1; }
     .opts .field input[type="number"]{ width:100%; }
-    .opts .field-start input[type="date"]{ width:100%; font-size:14px; padding:11px 6px; box-sizing:border-box; }
+    .opts .field-start input[type="date"]{ width:100%; font-size:16px; padding:11px 8px; box-sizing:border-box; }
   }
 </style>
 </head>
