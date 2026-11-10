@@ -1162,13 +1162,17 @@
     .opts .field input[type="number"]{ width:100%; }
     .opts .field-start input[type="date"]{
       display:block;
-      width:100%;
+      width:112px;
       min-width:0;
       max-width:100%;
       box-sizing:border-box;
       font-size:13px;
-      padding:10px 4px 10px 8px;
+      line-height:1.2;
+      padding:5px 2px 5px 5px;
+      -webkit-appearance:none;
+      appearance:none;
     }
+    .opts .field-start input[type="date"]::-webkit-date-and-time-value{ text-align:left; min-height:0; margin:0; }
   }
 </style>
 </head>
