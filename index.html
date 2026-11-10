@@ -319,12 +319,23 @@
     flex-direction:column;
     gap:10px;
   }
+  /* Desktop: 2 x 2 grid. Row 1 = Max per frozen | Healthy + Vegetarian (same line);
+     row 2 = Max per fast | Start date. */
   .opts{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:flex-end;
-    gap:14px 20px;
-    column-gap:50px;
+    display:grid;
+    grid-template-columns:auto auto;
+    align-items:center;
+    justify-content:start;
+    gap:14px 40px;
+  }
+  .opts .field-cap-frozen{ order:1; }
+  .opts .diet-filters{ order:2; }
+  .opts .field-cap-fast{ order:3; }
+  .opts .field-start{ order:4; }
+  .field-start input[type="date"]{
+    width:150px;
+    font-size:15px;
+    padding:11px 8px;
   }
 
   button#generate{
@@ -518,6 +529,13 @@
     transform-origin:left center;
     -webkit-clip-path:polygon(0 0, 100% 0, calc(100% - 3px) 25%, 100% 50%, calc(100% - 3px) 75%, 100% 100%, 0 100%, 3px 75%, 0 50%, 3px 25%);
     clip-path:polygon(0 0, 100% 0, calc(100% - 3px) 25%, 100% 50%, calc(100% - 3px) 75%, 100% 100%, 0 100%, 3px 75%, 0 50%, 3px 25%);
+  }
+
+  .day-name .day-date{
+    display:inline-block;
+    font-size:15px;
+    line-height:1.1;
+    letter-spacing:.02em;
   }
 
   .day-card:nth-child(even) .day-name{
@@ -1133,10 +1151,15 @@
 
   
   @media (max-width:640px){
-    /* Healthy sits under Max per frozen, Vegetarian under Max per fast. */
-    .opts{ display:grid; grid-template-columns:1fr 1fr; gap:12px 20px; width:100%; align-items:start; }
-    .cap-stack, .diet-filters{ display:contents; }
+    /* Row 1: Max per frozen | Max per fast. Row 2: Healthy + Vegetarian stacked on the
+       left, Start date on the right. */
+    .opts{ display:grid; grid-template-columns:1fr 1fr; gap:12px 20px; width:100%; align-items:start; justify-content:stretch; }
+    .opts .field-cap-frozen{ order:1; }
+    .opts .field-cap-fast{ order:2; }
+    .opts .diet-filters{ order:3; align-self:center; }
+    .opts .field-start{ order:4; }
     .opts .field input[type="number"]{ width:100%; }
+    .opts .field-start input[type="date"]{ width:100%; font-size:14px; padding:11px 6px; box-sizing:border-box; }
   }
 </style>
 </head>
@@ -1188,21 +1211,12 @@
     <div class="row row-meals">
       <div class="meal-picker" id="meal-picker" role="group" aria-label="Meals each day. Slide each meal to no meal, frozen or fast food."></div>
       <div class="opts">
-        <div class="cap-stack">
-          <div class="field">
-            <label for="max-frozen" class="max-price-label">
-              <input type="checkbox" id="max-frozen-enabled" />
-              <span>Max per frozen ($)</span>
-            </label>
-            <input type="number" id="max-frozen" value="5" min="0" max="50" step="0.25" disabled />
-          </div>
-          <div class="field">
-            <label for="max-fast" class="max-price-label">
-              <input type="checkbox" id="max-fast-enabled" />
-              <span>Max per fast ($)</span>
-            </label>
-            <input type="number" id="max-fast" value="8" min="0" max="50" step="0.25" disabled />
-          </div>
+        <div class="field field-cap-frozen">
+          <label for="max-frozen" class="max-price-label">
+            <input type="checkbox" id="max-frozen-enabled" />
+            <span>Max per frozen ($)</span>
+          </label>
+          <input type="number" id="max-frozen" value="5" min="0" max="50" step="0.25" disabled />
         </div>
         <div class="field diet-filters">
           <label class="diet-checkbox-label" for="healthy-only">
@@ -1213,6 +1227,17 @@
             <input type="checkbox" id="vegetarian-only" />
             <span>Vegetarian</span>
           </label>
+        </div>
+        <div class="field field-cap-fast">
+          <label for="max-fast" class="max-price-label">
+            <input type="checkbox" id="max-fast-enabled" />
+            <span>Max per fast ($)</span>
+          </label>
+          <input type="number" id="max-fast" value="8" min="0" max="50" step="0.25" disabled />
+        </div>
+        <div class="field field-start">
+          <label for="start-date">Start date</label>
+          <input type="date" id="start-date" />
         </div>
       </div>
     </div>
@@ -1291,7 +1316,30 @@ const TOLERANCE = 250;
 const REGEN_CALORIE_RANGE = 150;
 // Anything under this is too small to count as a real meal.
 const MIN_MEAL_CALORIES = 150;
-const DAY_NAMES = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+const DAY_NAMES = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];   // only used for the 7-day count now
+const WEEKDAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];     // indexed by Date.getDay()
+
+// ---- Start date: the week begins on this date and runs 7 days in order from it.
+function isoLocal(d){
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function parseIsoLocal(iso){
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+  if(!m) return null;
+  return new Date(parseInt(m[1], 10), parseInt(m[2], 10) - 1, parseInt(m[3], 10));
+}
+function formatDateUS(iso){
+  const d = parseIsoLocal(iso);
+  return d ? (d.getMonth() + 1) + '/' + d.getDate() + '/' + d.getFullYear() : '';
+}
+// The chosen start date (local time), falling back to today if the box is empty.
+function getStartDate(){
+  const el = document.getElementById('start-date');
+  const d = parseIsoLocal(el && el.value);
+  if(d) return d;
+  const now = new Date();
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate());
+}
 
 // The five meals a day can have. Each gets a slider: no meal / frozen / fast food.
 const SLOT_DEFS = [
@@ -1468,7 +1516,7 @@ function compactMeal(meal){
 function compactDay(day){
   const meals = {};
   Object.keys(day.meals).forEach(slot => { meals[slot] = compactMeal(day.meals[slot]); });
-  return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, pools: day.pools || {}, meals, regenBase: day.regenBase || {} };
+  return { dayName: day.dayName, date: day.date || null, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, pools: day.pools || {}, meals, regenBase: day.regenBase || {} };
 }
 
 // The live/current week persists across reloads so the site doesn't rebuild
@@ -1500,6 +1548,7 @@ function restoreCurrentWeek(){
 
   currentWeek = payload.days.map(day => ({
     dayName: day.dayName,
+    date: day.date || null,
     total: day.total,
     inRange: day.inRange,
     slotOrder: day.slotOrder,
@@ -1526,6 +1575,7 @@ function saveFormData(){
     maxFastEnabled: document.getElementById('max-fast-enabled').checked,
     healthyOnly: document.getElementById('healthy-only').checked,
     vegetarianOnly: document.getElementById('vegetarian-only').checked,
+    startDate: document.getElementById('start-date').value,
     mealSel: mealSel
   };
   setStorage(STORE.formData, JSON.stringify(data));
@@ -1552,6 +1602,7 @@ function loadFormData(){
     });
     document.getElementById('healthy-only').checked = !!data.healthyOnly;
     document.getElementById('vegetarian-only').checked = !!data.vegetarianOnly;
+    if(data.startDate && parseIsoLocal(data.startDate)) document.getElementById('start-date').value = data.startDate;
     if(data.mealSel && typeof data.mealSel === 'object'){
       SLOT_KEYS.forEach(k => { if(SEL_STOPS.includes(data.mealSel[k])) mealSel[k] = data.mealSel[k]; });
     }
@@ -1937,7 +1988,11 @@ function generateWeek(){
   currentTargetGlobal = target;
   activeCapInfo = { caps, healthyOnly, vegetarianOnly, fallbacks: pools.fallbacks, usedKeys };
 
-  currentWeek = DAY_NAMES.map(dayName => ({ dayName, ...buildDay(target, plan, pools) }));
+  const startDate = getStartDate();
+  currentWeek = DAY_NAMES.map((_, i) => {
+    const d = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + i);
+    return { dayName: WEEKDAYS[d.getDay()], date: isoLocal(d), ...buildDay(target, plan, pools) };
+  });
 
   activeTab = 'current';
   renderTabs();
@@ -2093,7 +2148,7 @@ function renderDayCard(dayName, day, target, editable, dayIndex){
   const header = document.createElement('div');
   header.className = 'day-header';
   header.innerHTML = `
-    <div class="day-name">${dayName}</div>
+    <div class="day-name">${dayName}${day.date ? '<br><span class="day-date">' + formatDateUS(day.date) + '</span>' : ''}</div>
     <div class="day-header-totals">
       <div class="value ${day.inRange ? 'in-range' : 'off-range'}">${day.total} cal*</div>
       <div class="price">${priceStr}</div>
@@ -2441,6 +2496,7 @@ document.getElementById('calorie-target').addEventListener('input', saveFormData
   document.getElementById('max-' + id).addEventListener('input', () => { saveFormData(); updatePoolCount(); });
 });
 document.getElementById('healthy-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
+document.getElementById('start-date').addEventListener('change', saveFormData);
 document.getElementById('vegetarian-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
 const CAP_DEFAULTS = { frozen: '5', fast: '8' };
 ['frozen', 'fast'].forEach(id => {
@@ -2521,6 +2577,7 @@ renderTabs();
 if(!loadFormData()){
   recalcCaloriesBurned();
 }
+if(!document.getElementById('start-date').value) document.getElementById('start-date').value = isoLocal(getStartDate());
 renderMealPicker();
 wireMealPicker();
 saveFormData();
