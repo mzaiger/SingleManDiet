@@ -1159,20 +1159,22 @@
     .opts .field-cap-fast{ order:2; }
     .opts .diet-filters{ order:3; align-self:center; }
     .opts .field-start{ order:4; overflow:hidden; }
-    .opts .field input[type="number"]{ width:100%; }
+    .opts .field input[type="number"]{ width:100%; height:42px; box-sizing:border-box; }
     .opts .field-start input[type="date"]{
+      height:42px;
       display:block;
       width:100%;
       min-width:0;
       max-width:100%;
       box-sizing:border-box;
-      font-size:13px;
+      font-size:16px;
       line-height:1.2;
-      padding:5px 2px 5px 5px;
+      padding:8px 4px 8px 10px;
       -webkit-appearance:none;
       appearance:none;
     }
     .opts .field-start input[type="date"]::-webkit-date-and-time-value{ text-align:left; min-height:0; margin:0; }
+    .opts .field-start input[type="date"]::-webkit-calendar-picker-indicator{ margin:0 0 0 2px; padding:0; }
   }
 </style>
 </head>
