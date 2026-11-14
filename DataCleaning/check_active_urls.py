@@ -99,7 +99,7 @@ def check_url(page, url):
 
 
 def process_item(context, item):
-    url = item.get("PRODUCT_URL")
+    url = item.get("PRODUCT_URL_OLD") or item.get("PRODUCT_URL")  # check the real product page, not the search link
     if not url:
         item["active"] = None
         item["_active_check_reason"] = "no PRODUCT_URL"

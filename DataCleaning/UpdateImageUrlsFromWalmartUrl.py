@@ -115,7 +115,7 @@ log = logging.getLogger("update_image_urls_from_walmart_url")
 def walmart_query(product: dict[str, Any]) -> str:
     """The product's Walmart URL, minus any query string / fragment. Empty
     string if the product has no usable URL."""
-    url = (product.get("PRODUCT_URL") or "").strip()
+    url = (product.get("PRODUCT_URL_OLD") or product.get("PRODUCT_URL") or "").strip()  # PRODUCT_URL is now a search link; the old product page is what we want here
     if not url.lower().startswith("http"):
         return ""
     parts = urlsplit(url)

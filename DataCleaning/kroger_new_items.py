@@ -1360,6 +1360,22 @@ def build_instacart_search_url(name):
     return "https://www.instacart.com/store/s?k=" + "+".join(words).replace("'", "%27")
 
 
+def build_walmart_search_url(name):
+    """Builds a Walmart search-results URL from a product name, using the
+    exact same cleaned words (and apostrophe / "+" handling) as
+    build_instacart_search_url() -- e.g. "Marie Callender's Pot Roast,
+    Frozen Meal, 10 oz" ->
+    https://www.walmart.com/search?q=marie+callender%27s+pot+roast
+
+    Walmart's /ip/ product pages go dead often, so PRODUCT_URL holds this
+    search link and the original product page is kept in PRODUCT_URL_OLD.
+    BUILT, not looked up: nothing checks the search returns anything."""
+    words = clean_search_words(name)
+    if not words:
+        return ""
+    return "https://www.walmart.com/search?q=" + "+".join(words).replace("'", "%27")
+
+
 def _money(value):
     return f"{value:.2f}" if value is not None else ""
 
@@ -1381,7 +1397,8 @@ def build_pool_record(candidate, walmart, image_url, image_query, image_reason,
         "PRICE_RETAIL": _money(candidate["price_regular"]),
         "PRODUCT_NAME": product_name,
         "PRODUCT_SIZE": candidate["size"],
-        "PRODUCT_URL": add_pickup_param(walmart["product_url"]),
+        "PRODUCT_URL": build_walmart_search_url(product_name) or add_pickup_param(walmart["product_url"]),  # search link (product pages break a lot)
+        "PRODUCT_URL_OLD": add_pickup_param(walmart["product_url"]),  # the original Walmart product page, kept in case we go back
         "PROMOTION": "",
         "RunDate": run_date,
         "SHIPPING_LOCATION": "",

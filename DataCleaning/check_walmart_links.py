@@ -169,7 +169,7 @@ def process_candidate_pool(path: str, out_path: str, api_key: str, delay: float,
                   f"(remaining {total - i + 1} records left untouched).")
             break
 
-        url = record.get("PRODUCT_URL", "")
+        url = record.get("PRODUCT_URL_OLD") or record.get("PRODUCT_URL", "")  # real product page, not the search link
         sku = record.get("SKU", "")
         product_id = extract_product_id(url) or sku
 
