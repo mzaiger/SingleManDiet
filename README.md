@@ -321,6 +321,19 @@ Environment variables: `GEMINI_KEY` (required for step 1), `MAX_GEMINI_CALLS` (p
 
 Fields that start with an underscore (`_added_at`, `_updated_at`, `_model`, `_image_attempts`, `_image_source`, `_serving_multiplier`, `_avail_cycle`, `_avail_checked_at`, `_avail_model`; older files may also have `_image_refreshed`, which is no longer used) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
 
+### Value meals (`pull_value_meals.py`, `value_meals.json`)
+
+A separate pool for **value meals / combos**: a main + side + drink sold under one menu name ("Big Mac Meal", "#1 Combo"). Calories are the whole meal **with a diet drink**, i.e. the drink counts as 0, so it is the main and sides only; the price is the combo price; each meal also stores `serving` (what is in it) and `drink` (the diet drink assumed). One person's meal only: kids' meals, family bundles and a-la-carte items are not included.
+
+Same two manual steps as the regular fast food data (Actions tab > Run workflow):
+
+1. **Pull value meals (manual)** runs `pull_value_meals.py`: one Gemini call per restaurant, fewest meals first, pictures left empty. Optional inputs: a single restaurant, and "recheck" for chains earlier runs found nothing for.
+2. **Fill missing value meal images (manual)** runs `refresh_value_meal_images.py`: the same DuckDuckGo quoted search as `refresh_images.py`, but on `value_meals.json`.
+
+Only chains in `VALUE_MEAL_RESTAURANTS` (top of `pull_value_meals.py`) are pulled: Arby's, Burger King, Charleys Cheesesteaks, Chick-fil-A, Culver's, Dairy Queen, Firehouse Subs, Freddy's, Jersey Mike's, Jimmy John's, KFC, Long John Silver's, McAlister's, McDonald's, Popeyes, Raising Cane's, Slim Chickens, Sonic, Subway, Taco Bell, Taco John's, Wendy's, Wingstop, plus borderline Panera (You Pick Two), Qdoba, Moe's and Panda Express. A chain Gemini finds nothing for is marked `has_value_meals: false` and skipped later. To try another chain from the approved list, use the restaurant input (e.g. `--restaurant "Little Caesar's"`). Gemini's daily allowance is per API key but each JSON counts its own calls, so running both pulls on one day can hit Google's limit early; a model that says "quota" is skipped for the run.
+
+The planner pages (`index.html`, `products.html`) do not read `value_meals.json` yet.
+
 ### Notes and limits
 
 - Gemini's menu knowledge can be wrong or out of date. Numbers are estimates, not live menu data.

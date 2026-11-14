@@ -320,7 +320,7 @@ def extract_json_array(text):
     return parsed
 
 
-def call_model(prompt, key, model, limiter):
+def call_model(prompt, key, model, limiter, schema=None):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     last_err = None
     for attempt in range(GEMINI_MAX_RETRIES):
@@ -333,7 +333,7 @@ def call_model(prompt, key, model, limiter):
                     "contents": [{"parts": [{"text": prompt}]}],
                     "generationConfig": {
                         "responseMimeType": "application/json",
-                        "responseSchema": RESPONSE_SCHEMA,
+                        "responseSchema": schema or RESPONSE_SCHEMA,
                         "maxOutputTokens": 32768,
                     },
                 },
@@ -373,7 +373,7 @@ def models_available(quota):
             if m not in quota["exhausted"] and quota["calls"].get(m, 0) < MAX_GEMINI_CALLS_PER_DAY]
 
 
-def ask_gemini(prompt, key, limiter, quota):
+def ask_gemini(prompt, key, limiter, quota, schema=None):
     """Returns (items, model_used). Walks the model list in order, skipping models that
     are used up for today. 4xx -> model is marked used up for the day; 5xx / bad
     output -> try the next model for this restaurant only."""
@@ -383,7 +383,7 @@ def ask_gemini(prompt, key, limiter, quota):
             continue                       # overloaded all run long; the next run tries it again
         before = _stats["ok"].get(model, 0)
         try:
-            items = call_model(prompt, key, model, limiter)
+            items = call_model(prompt, key, model, limiter, schema)
             _stats["streak"][model] = 0
             return items, model
         except _ModelUnavailable as e:

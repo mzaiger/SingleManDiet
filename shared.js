@@ -363,7 +363,7 @@ function retailerChipsHtml(meal, prefix, missingPlaceholders){
   const url = getMealUrl(meal);
   const instacartUrl = getMealInstacartUrl(meal);
   const chip = (href, key, label, host) => href
-    ? `<a class="${prefix}-link ${prefix}-link-${key}" href="${escHtml(href)}" target="_blank" rel="noopener noreferrer" title="View on ${host}"><span class="${prefix}-link-name"><span class="sr-only">View on </span>${label} &rarr;</span></a>`
+    ? `<a class="${prefix}-link ${prefix}-link-${key}" href="${escHtml(href)}" target="_blank" rel="noopener noreferrer" title="${host === 'walmart.com' ? 'Search' : 'View on'} ${host}"><span class="${prefix}-link-name"><span class="sr-only">${host === 'walmart.com' ? 'Search ' : 'View on '}</span>${label} &rarr;</span></a>`
     : (missingPlaceholders ? `<span class="${prefix}-link-missing">no ${label} link</span>` : '');
   return chip(url, 'walmart', 'Walmart', 'walmart.com') + chip(instacartUrl, 'instacart', 'Instacart', 'Instacart');
 }
