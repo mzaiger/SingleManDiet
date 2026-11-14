@@ -4153,11 +4153,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.P5s1zsBW60-zROLh2KvEKQHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/34095-1_TJ_WebsiteMenu_MeatPotatoBurrito_Combo_R2_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:00:47.350001+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4170,11 +4172,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.cbyvvuj2w1qteEZ03YEgKQHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2022/09/tacoj10048_WebsiteImages_TwoCrispyBeefTacosCombo_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:00:52.489772+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4187,11 +4191,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.HjJcvY3cuXN52zJpB1Q-hwHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2022/09/tacoj10048_WebsiteImages_TwoSoftshellBeefTacosCombo_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:00:55.991111+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4204,11 +4210,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.iTAnYssfVZe4i54MbX1JwAHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/TacoBravo-Combo-MD.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:00.498162+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4221,11 +4229,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.E9FwzgoPw_g43BWvWu96uQHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/SuperBurritoCombo_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:05.804029+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4238,11 +4248,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.nm5ZXJiNhCwLsrEJHRK0EAHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2022/02/34095-1_TJ_WebsiteMenu_Images_BossBurrito_Combo_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:09.883930+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4255,11 +4267,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.tOdZ8BTufIlN0v7-LhpD7wHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2020/01/SHP1180_TJ_P2_Photo_10BossBowlSteak_0238_FOCUS_CLEAN.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:14.304566+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4272,11 +4286,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.0YIAHjyceGUOyzYVJ2TjbwHaIH&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2021/06/31828-01-TJ-P5-Fried-Chicken-Tacos_Digital_R3_LP-Mobile-767x841-–-2.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:17.752264+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4289,11 +4305,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.HjJcvY3cuXN52zJpB1Q-hwHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2022/09/tacoj10048_WebsiteImages_TwoSoftshellBeefTacosCombo_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:22.689591+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4306,11 +4324,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.bFvWf9vjcgQEjsaBMWlgTQAAAA&pid=15.1",
+      "image_full_url": "https://images-cdn.ispot.tv/ad/doCR/taco-johns-sirloin-steak-burrito-mascot-small-5.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:27.532935+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4323,11 +4343,13 @@
       "drink": "medium unsweetened iced tea",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.3r20r3X62JtGVcz8Fz1m6wHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2023/03/MenuItemImages_2000x700_SausageMPBBCombo.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:32.492471+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4340,11 +4362,13 @@
       "drink": "medium unsweetened iced tea",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.wvWDstrzVqzsgpNTb-x94wHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2023/03/MenuItemImages_2000x700_ScramblerBBCombo.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:36.427873+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4357,11 +4381,13 @@
       "drink": "medium unsweetened iced tea",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.SVJHJ2oaAljcS_3m9rslqAHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2023/03/SpicyChorizoBreakfastBurrito-MountainCup_2000x700.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:40.088509+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -4374,11 +4400,13 @@
       "drink": "medium unsweetened iced tea",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.LlrURUuodOUImvfpMljxbQHaEK&pid=15.1",
+      "image_full_url": "https://tacobellmenu.org/wp-content/uploads/2024/06/taco-bell-breakfast-quesadilla-combo.jpg",
       "_added_at": "2026-11-14T19:00:32.157087+00:00",
-      "_updated_at": "2026-11-14T19:00:32.157087+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:01:44.298555+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4391,11 +4419,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.RM4NPVIzM6b4I4dszkhPRAHaF7&pid=15.1",
+      "image_full_url": "https://smartcanucks.ca/wp-content/uploads/2018/01/Screen-Shot-2018-01-03-at-11.20.22-AM.jpg",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:01:48.104376+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4408,11 +4438,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.lvfzy13cFMoAnDgjHvn-kQHaHa&pid=15.1",
+      "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4309062969180437",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:01:52.053704+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4425,11 +4457,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.JO_ovXGAIuZL7AH29MiyYAAAAA&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/4mJYPLRFOWs/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAWITOCuQiEGBnJvvM4Mfj3Iww5_g",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:01:56.381220+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4442,11 +4476,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.9ivPQmNGF_dXZJ_dEFRVkwHaHa&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/baconator-combo-413_medium_US_en.png?itok=cG8xqiBT",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:01.677886+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4459,11 +4495,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.7OEr2EBWjqaegoMjtgrSXgHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/2402_medium_US_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:06.135405+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4476,11 +4514,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.6-bsWKIuDxOzxpROPzMq7AHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/2398_medium_US_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:11.492018+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4493,11 +4533,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.nLkjDAsxoRLDop3GON9UagHaGb&pid=15.1",
+      "image_full_url": "https://www.wdsmenu.com/wp-content/uploads/2025/03/classic-chicken-sandwich-combo-removebg-preview-67c29f07cdd57.webp",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:15.514793+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4510,11 +4552,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.zaU4098k0CwO9j4JI6XR7AHaEK&pid=15.1",
+      "image_full_url": "https://wendyssmenu.us/wp-content/uploads/2026/01/Terracotta-Modern-Resturant-Fast-Food-Presentation-16.webp",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:20.219503+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4527,11 +4571,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.zlFMMTd6tAwpT3a2jxHcoQAAAA&pid=15.1",
+      "image_full_url": "https://www.wendy-menu.com/wp-content/uploads/2025/12/The-Rob-Stone-Combo.jpg",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:25.047998+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4544,11 +4590,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.5V22QasuJkGQBM9kWcnYEAHaEK&pid=15.1",
+      "image_full_url": "https://wndysmenu.com/wp-content/uploads/2024/12/Wendys-10-PC.-Chicken-Nugget-Combo.webp",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:29.040336+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4561,11 +4609,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.8WetODwQJQFS4QnHgjtMGwHaHa&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/de/3a/d2/de3ad22461f38a524690fe829da61fbd.jpg",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:33.551691+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4578,11 +4628,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.p1faFLBoEr7V1nlf7Ix_RAHaEg&pid=15.1",
+      "image_full_url": "https://geekspin.co/wp-content/uploads/2020/02/Breakfast-Baconator-Combo-e1697072650591.jpg",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:38.139859+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4595,11 +4647,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.P6pvC8m_nGZFILuEqo1QTAHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/836_medium_US_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:42.860956+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4612,11 +4666,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.EII1oMNf6tawp60dkYUvFQHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/837_medium_US_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:46.692166+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4629,11 +4685,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.q93jyft5wRXKWHQZe_tUFwAAAA&pid=15.1",
+      "image_full_url": "https://wendy-menuprices.com/wp-content/uploads/2025/04/Wendys-Honey-Butter-Chicken-Biscuit-Combo.webp",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:51.188864+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4646,11 +4704,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.PGUB7x_igQ0skbNU3K3B1gHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/839_medium_US_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:02:56.441178+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4663,11 +4723,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.Nfnjd-Sl8rXaWAhyWfwD5wHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/840_medium_US_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:03:00.385924+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4680,11 +4742,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP._7WK4wOaUoDSWnarNdgsmwAAAA&pid=15.1",
+      "image_full_url": "https://jojorecipes.com/assets/restaurants-menu/images/wendys/classic-sausage-egg-cheese-sandwich-combo.png",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:03:05.514823+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4697,11 +4761,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.QttlsKLbLpfMHaLzwC5ioQHaD4&pid=15.1",
+      "image_full_url": "https://feastgood.com/wp-content/uploads/2022/09/classic-bacon-egg-cheese-sandwich-320-calories-1024x536.jpg",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:03:10.574892+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wendy's",
@@ -4714,11 +4780,13 @@
       "drink": "Medium Diet Coke",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.IpC5zyf-YYWk7PxGixUleAHaHa&pid=15.1",
+      "image_full_url": "https://order.wendys.com/_next/image?url=https://app.wendys.com/unified/assets/menu/pg-cropped/1746_medium_CA_en.png&w=828&q=75",
       "_added_at": "2026-11-14T19:01:58.234501+00:00",
-      "_updated_at": "2026-11-14T19:01:58.234501+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-11-14T21:03:14.369226+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4731,11 +4799,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.AF-WonyWVgPi6SwNIM7LAgHaEM&pid=15.1",
+      "image_full_url": "https://olo-images-sandbox.imgix.net/13/1322343b6632489fbeab1dbc02013f01.png?auto=format,compress&q=60&cs=tinysrgb&w=2052&h=1161&fit=crop&fm=png32&s=cf197fe1ddd745fe46b6b29a40dc6e78",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:18.179583+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4748,11 +4818,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Jv4te25pWhbIZsaDRSWZoAAAAA&pid=15.1",
+      "image_full_url": "https://cdn.foodadvisor.com.sg/3/400/ycqwu/vt-iw/Fhetksji/4407571.zfw/8-piece-boneless-wings-combo.jpg",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:21.590439+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4765,11 +4837,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.9PNV1Jx_CtvNCU-lhN23OAAAAA&pid=15.1",
+      "image_full_url": "https://cdn.foodadvisor.com.sg/3/400/ycqwu/cudk-ycfehj-wqjumqo-fht/huwyedi/QI/sxqydi/mydwijef_iw/027091uv34886t6qs23v34845v985tr4.zfw/8-piece-classic-wings-combo.jpg",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:25.960572+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4782,11 +4856,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.jg6Lgd3KEOiNtdGJv5SxLQAAAA&pid=15.1",
+      "image_full_url": "https://cdn.foodadvisor.com.sg/3/400/ycqwu/cudk-ycfehj-wqjumqo-fht/huwyedi/QI/sxqydi/mydwijef_iw/tt4q397451q9266svus3573qs1s74792.zfw/6-piece-boneless-wings-combo.jpg",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:29.935224+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4799,11 +4875,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.rbXbkdOYrH14sa64lN_wzQHaEK&pid=15.1",
+      "image_full_url": "https://cdn.bfldr.com/NDQASMJ1/as/s5b7kw9rkmjf9sbtqgj6wcpf/6_pc_Wing_Combo?auto=webp&format=png&width=450,+https://cdn.bfldr.com/NDQASMJ1/as/s5b7kw9rkmjf9sbtqgj6wcpf/6_pc_Wing_Combo?auto=webp&format=png&width=675+1.5x,+https://cdn.bfldr.com/NDQASMJ1/as/s5b7kw9rkmjf9sbtqgj6wcpf/6_pc_Wing_Combo?auto=webp&format=png&width=900+2x",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:34.242977+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4816,11 +4894,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.A900rkocRxXA5KYra1PJtgAAAA&pid=15.1",
+      "image_full_url": "https://cdn.bfldr.com/NDQASMJ1/at/wb2p9kkfx4qt9gg84rht46vb/WINGS_BY_THE_PIECE_-_100_BONELESS_WINGS_-_PRODUCT_PAGE.png",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:38.060507+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4833,11 +4913,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.-hNvnr2en6kX9CGWFnH_twAAAA&pid=15.1",
+      "image_full_url": "https://cdn.bfldr.com/NDQASMJ1/at/x4tcrn7835jh8t8bs3pjhvq/Classic_Wings.png",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:42.797396+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4850,11 +4932,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.o_aFau0AAfCisMYgm-lSiwHaEM&pid=15.1",
+      "image_full_url": "https://olo-images-live.imgix.net/2b/2b8f67e695f8439db35cc92547c9f700.png?auto=format,compress&q=60&cs=tinysrgb&w=524&h=350&fit=fill&fm=png32&bg=transparent&s=713f46611eb675ae6a27970d3c4646a1",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:47.925370+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4867,11 +4951,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.9LhK-j6ASNvHu3ktAsyq7gAAAA&pid=15.1",
+      "image_full_url": "https://cdn.foodadvisor.com.sg/3/400/ycqwu/vt-iw/Fhetksji/4447665.zfw/4-piece-tenders-combo.jpg",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:52.824753+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Wingstop",
@@ -4884,11 +4970,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.XMCE1cAg7so1ZCn8SgWr8AHaEK&pid=15.1",
+      "image_full_url": "https://cdn.bfldr.com/NDQASMJ1/at/vnbwrmjvh4wzgqvmc8nz8hvp/20_CRISPY_TENDERS.png?auto=webp&format=png",
       "_added_at": "2026-11-14T19:05:35.905175+00:00",
-      "_updated_at": "2026-11-14T19:05:35.905175+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-14T21:03:57.153964+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     }
   ],
   "restaurants": {
@@ -5071,5 +5159,5 @@
     "Moe's Southwest Grill",
     "Panda Express"
   ],
-  "updated_at": "2026-11-14T19:23:21.253008+00:00"
+  "updated_at": "2026-11-14T21:04:00.796274+00:00"
 }
