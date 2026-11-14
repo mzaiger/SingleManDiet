@@ -1,0 +1,67 @@
+name: Pull value meals (manual)
+
+# Step 1 of 2, run by hand: Actions tab > "Pull value meals (manual)" > Run workflow.
+# Pulls VALUE MEALS / COMBOS (main + side + diet drink; calories counted with a diet drink) from Gemini for the
+# chains that sell them, with an EMPTY picture. Then run "Fill missing value meal images (manual)" (step 2) to find the pictures.
+
+on:
+  workflow_dispatch:
+    inputs:
+      restaurant:
+        description: "Only this restaurant, exact name (blank = every value-meal restaurant)"
+        required: false
+        default: ""
+      recheck:
+        description: "Also retry restaurants earlier runs found no value meals for"
+        type: boolean
+        required: false
+        default: false
+      max_gemini_calls:
+        description: "Max Gemini calls per model per day (free tier is 20)"
+        required: false
+        default: "20"
+
+concurrency:
+  group: pull-value-meals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pull value meals (Gemini Flash 3.8/3.7/3.6/3.5; resumes where the last run stopped; pictures left empty)
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          MAX_GEMINI_CALLS: ${{ github.event.inputs.max_gemini_calls || '20' }}
+          RESTAURANT: ${{ github.event.inputs.restaurant }}
+          RECHECK: ${{ github.event.inputs.recheck }}
+        run: |
+          args=()
+          if [ "$RECHECK" = "true" ]; then args+=(--recheck); fi
+          if [ -n "$RESTAURANT" ]; then args+=(--restaurant "$RESTAURANT"); fi
+          python pull_value_meals.py "${args[@]}"
+
+      - name: Commit updated value_meals.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add value_meals.json
+          git diff --staged --quiet || git commit -m "Value meal pull [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
