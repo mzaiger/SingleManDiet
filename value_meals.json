@@ -4989,11 +4989,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.aIkjJ15ZpEAVpe45okhF7wAAAA&pid=15.1",
+      "image_full_url": "https://www.kfmenu.com/wp-content/uploads/2025/01/10-pc-saucy-nuggets-6794cfc492ebe-150x150.webp",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:13.197515+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5006,11 +5008,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.MHcc5QfJaUy2ytQI14rEDAAAAA&pid=15.1",
+      "image_full_url": "https://www.eatplea.com/images/offers/630152/save-with-the-kfc-chicken-and-nuggets-family-meal-at-kentucky-fried-chicken-1-400.jpg",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:17.816890+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5023,11 +5027,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.l5RVBnClsuyLKkVdDi98cQHaEH&pid=15.1",
+      "image_full_url": "https://www.allrecipes.com/thmb/e9FB9AUjsW4xOXONR13RV9A4Hpk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/KFC-Wraps-7c16669398fe4a64be6f4b8165585521.png",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:21.844615+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5040,11 +5046,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.ITqrYGfb3eH92BmkcSwbxwHaJQ&pid=15.1",
+      "image_full_url": "https://cdn.klfoodie.com/2020/08/2.jpg",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:25.866146+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5057,11 +5065,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP.eV0RxK6AbvbwUD97XzN99AHaFO&pid=15.1",
+      "image_full_url": "https://images.ctfassets.net/a2mgcrjjefyo/5Tb4pqlPfbBdTi1oGolOpv/7779bb457e8b8798698ac2a3a1621955/4pc_Chicken_Combo.jpg",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:29.642034+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5074,11 +5084,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.OS6NMLZRiXiaQNpzArdizQHaEq&pid=15.1",
+      "image_full_url": "https://www.eatplea.com/images/offers/643497/save-with-the-kfc-8-piece-chicken-and-8-tenders-fill-up-meal-at-kentucky-fried-chicken-a-digital-exclusive-1-max.jpg",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:33.133549+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5091,11 +5103,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.aK9ebGGAn1W8AUiiJPv6hAHaE8&pid=15.1",
+      "image_full_url": "https://kfc.com.my/media/catalog/product/5/-/5-pc-chicken-combo_1.jpg?quality=80&bg-color=255,255,255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:37.081092+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5108,11 +5122,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.qhZbeozYcP-ufJ8Z-9gipQHaGB&pid=15.1",
+      "image_full_url": "https://static.kfc.de/images/items/lg/classic-original-box.jpg?v=LZrK8L",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:42.179819+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5125,11 +5141,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP._kOGtVpno2lOkOBdyvi-OgHaFs&pid=15.1",
+      "image_full_url": "https://kfcmenu.info/wp-content/uploads/2023/07/KFCs-Chicken-Sandwich-Big-Box-Combo-Now-Comes-With-New-KFC-Chicken-Nuggets-768x591.jpg",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:45.695813+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -5142,11 +5160,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.KGEADK_RxETDsMwb7emvZwHaHa&pid=15.1",
+      "image_full_url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/1OVg-1-5MD25/1-C7ZEMJ/129.jpg?width=1600&height=1600&backgroundcolor=ffffff&resizeinbox=true",
       "_added_at": "2026-11-15T10:16:11.893449+00:00",
-      "_updated_at": "2026-11-15T10:16:11.893449+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:50.352736+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -5159,11 +5179,13 @@
       "drink": "20 oz Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.avmaX3X0k7vjyZ56YZHz9AHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2026/06/Long-John-Silvers-Fish-Sandwich-combo.png?resize=640",
       "_added_at": "2026-11-15T10:19:05.103553+00:00",
-      "_updated_at": "2026-11-15T10:19:05.103553+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:54.064607+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -5176,11 +5198,13 @@
       "drink": "20 oz Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.KrG08m2TgEE1VvlDZpS2eAHaGH&pid=15.1",
+      "image_full_url": "https://1.bp.blogspot.com/-LyklNupHJlU/YDaRMqBGNDI/AAAAAAABRME/UrnReZyNZVgBel-K__fDHUxOE13wexLxQCLcBGAsYHQ/w1200-h630-p-k-no-nu/Long-John-Silvers-599-Fish-and-Shrimp-Combo.png",
       "_added_at": "2026-11-15T10:19:05.103553+00:00",
-      "_updated_at": "2026-11-15T10:19:05.103553+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:12:57.581733+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -5193,11 +5217,13 @@
       "drink": "20 oz Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.KrG08m2TgEE1VvlDZpS2eAHaGH&pid=15.1",
+      "image_full_url": "https://1.bp.blogspot.com/-LyklNupHJlU/YDaRMqBGNDI/AAAAAAABRME/UrnReZyNZVgBel-K__fDHUxOE13wexLxQCLcBGAsYHQ/w1200-h630-p-k-no-nu/Long-John-Silvers-599-Fish-and-Shrimp-Combo.png",
       "_added_at": "2026-11-15T10:19:05.103553+00:00",
-      "_updated_at": "2026-11-15T10:19:05.103553+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:02.807605+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -5210,11 +5236,13 @@
       "drink": "20 oz Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.KrG08m2TgEE1VvlDZpS2eAHaGH&pid=15.1",
+      "image_full_url": "https://1.bp.blogspot.com/-LyklNupHJlU/YDaRMqBGNDI/AAAAAAABRME/UrnReZyNZVgBel-K__fDHUxOE13wexLxQCLcBGAsYHQ/w1200-h630-p-k-no-nu/Long-John-Silvers-599-Fish-and-Shrimp-Combo.png",
       "_added_at": "2026-11-15T10:19:05.103553+00:00",
-      "_updated_at": "2026-11-15T10:19:05.103553+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:06.434994+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -5227,11 +5255,13 @@
       "drink": "20 oz Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP._FiamlyO-tqjBQDxP3caugHaDu&pid=15.1",
+      "image_full_url": "https://www.ljsilversmenu.onl/wp-content/uploads/2025/05/2-fish-tacos-removebg-preview-6815eba534635.webp",
       "_added_at": "2026-11-15T10:19:05.103553+00:00",
-      "_updated_at": "2026-11-15T10:19:05.103553+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:10.605452+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -5244,11 +5274,13 @@
       "drink": "20 oz Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.n6nsusnw_g4Ef84b-hAVpAAAAA&pid=15.1",
+      "image_full_url": "https://dailykitchenbites.com/wp-content/uploads/2026/04/Long-John-Silvers-Fried-Clams-Recipe.png",
       "_added_at": "2026-11-15T10:19:05.103553+00:00",
-      "_updated_at": "2026-11-15T10:19:05.103553+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:13.939556+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5261,11 +5293,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.AHgUT32N1EAr3PUhZBUaUAHaGR&pid=15.1",
+      "image_full_url": "https://slimchickens.my/wp-content/uploads/2020/02/6wingmeal.jpg",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:18.670354+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5278,11 +5312,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.XAwBC8cnmws3gLzHsbzk6wHaGR&pid=15.1",
+      "image_full_url": "https://slimchickens.com/wp-content/uploads/2020/01/8_wing_meal_RGB-1.jpg",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:23.828133+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5295,11 +5331,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.XAwBC8cnmws3gLzHsbzk6wHaGR&pid=15.1",
+      "image_full_url": "https://slimchickens.com/wp-content/uploads/2020/01/8_wing_meal_RGB-1.jpg",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:28.543270+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5312,11 +5350,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.I1TlakiSEEZRy6UYvSngPgHaEz&pid=15.1",
+      "image_full_url": "https://www.slimchickens.co.uk/assets/menu/menu_hero_images/Tenders-meal-1738943536.png",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:33.689221+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5329,11 +5369,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.Tngs42wp4lc5pWsar0t5hgHaEz&pid=15.1",
+      "image_full_url": "https://whatnow.com/wp-content/uploads/2025/06/Tenders-meal-1738943536.png",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:37.842292+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5346,11 +5388,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.kW8um2Cn_0YNo0EcuvwGRAHaFj&pid=15.1",
+      "image_full_url": "https://external-preview.redd.it/slim-chickens-launches-new-nashville-hot-chicken-sandwich-v0-XRU57gaVJXG4Opmj_2H5TBf-wMydWCgyP8Yj_gBhBiY.jpg?auto=webp&s=79e61d5ad6be9a24eb49732817350897accfcdf6",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:41.343554+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5363,11 +5407,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.xDcVzAkQI0-8c8W9HB_voAHaFw&pid=15.1",
+      "image_full_url": "https://www.slimchickens.co.uk/assets/about/about-3.jpg",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:46.015023+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Slim Chickens",
@@ -5380,11 +5426,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.NxZ9V9RbL0J1KV8qCecDSwHaJQ&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/db/79/b5/db79b5ab6346f9f3cd13eb0e5c0eb80d.jpg",
       "_added_at": "2026-11-15T10:25:07.062088+00:00",
-      "_updated_at": "2026-11-15T10:25:07.062088+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:13:50.614662+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5397,11 +5445,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Khg95kmg-jLiOHOcO0ImkgHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2025/09/Xtreme-Meal-Deal-Pop-Up-1-1024x683.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:13:54.145024+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5414,11 +5464,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.161b6l3QnWj9qjH-TIwubAHaEr&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2022/03/1756x1110_hero_website_fiesta_2-1.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:13:58.214508+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5431,11 +5483,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.WYYRy7aBIxMEzB2jPvPWUAAAAA&pid=15.1",
+      "image_full_url": "https://images.deliveryhero.io/image/talabat/MenuItems/PHILLI_CHEESESTEAK_COMBO_638632804946776192.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:14:03.167402+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5448,11 +5502,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.FyQ5SjTk2zncVBG0FyhybgHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/11/8d7f05747d034339952441ca176c8522.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:14:06.824723+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5465,11 +5521,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.1GttUDlcjPivBojiOoIf_gHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/08/cbbd6b40a5f9440683b8ed51aa88c14c-1024x683.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:14:10.087294+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5482,11 +5540,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.nLvz68K8x-lQ3DMMvcXpbAHaGj&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2021/10/1920x1699_charley-wings_carryout-delivery-curbside-cheesesteaks-deli-paper_crop-2-1024x906.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:14:13.703663+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5499,11 +5559,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.xCZGYbUfcs_EZuwKzlbDIwHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/12/c76197e4278f42e28a1e4e0466c1e3fd.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:14:17.584415+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -5516,11 +5578,13 @@
       "drink": "Regular Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.PM3NMaPIPEqaBOzGvLeizAHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2025/09/1024x683_category_chicken-tenders.jpg",
       "_added_at": "2026-11-15T10:37:15.836661+00:00",
-      "_updated_at": "2026-11-15T10:37:15.836661+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-11-15T11:14:21.466322+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5533,11 +5597,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.E_HOA3d-2DgC66MPzwdV8gHaEK&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:26.139295+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5550,11 +5616,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.OIi0CFZsh_JBPIJLekXutAHaFj&pid=15.1",
+      "image_full_url": "https://www.readysetgwinnett.com/wp-content/uploads/2026/04/Firehouse-Subs-Steak-and-Cheese-Melt.png",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:30.644799+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5567,11 +5635,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.gAzQKCbmTneb5LCaYGcQywHaC6&pid=15.1",
+      "image_full_url": "https://www.firehousesubs.ca/assets/___fresh/home/src/marketing-cards-desktop/canadian-smoked-turkey-card/canadian-smoked-turkey-card-background.webp?platform=web&hash=800cd02826e64e779be4b09a606710cb",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:34.980537+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5584,11 +5654,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.g7VRuP0zu7c30VYLVZbG7gHaE8&pid=15.1",
+      "image_full_url": "https://copycatof.com/uploads/2025/05/virginia-honey-ham-copycat-recipe.jpg",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:39.717921+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5601,11 +5673,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Zpr0RO_yv1uJqz2qzXPDzgHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/6-healthiest-firehouse-subs-and-6-unhealthiest/unhealthy-sweet-and-spicy-meatball-1743178399.jpg",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:43.962085+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5618,11 +5692,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.LgTKWyRSgnkp_ltYL_iFXgHaFR&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/55/b8/25/55b825e87f705b08d4853a80687fb90b.jpg",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:48.247919+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5635,11 +5711,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.F0rV-FrdfgIX231oho-_bQHaEK&pid=15.1",
+      "image_full_url": "https://www.southernliving.com/thmb/XR_-vCMHMpCXAAC0oI04lbANXTY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/09925-34-ChickenCheddarRancher_PR_Image_1920x1080_CR-77b32fac7a3c461ab2cff58fb9106347.png",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:53.377320+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5652,11 +5730,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.k022gBRnSmv7zxtwmUOxAwHaC6&pid=15.1",
+      "image_full_url": "https://www.firehousesubs.ca/assets/___fresh/home/src/marketing-cards-desktop/pastrami-reuben-card/pastrami-reuben-card-background.webp?platform=web&hash=934db68014674a6bfbcf1b709943b103",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:14:58.229111+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5669,11 +5749,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.jsD_lRSvWEKt9CZPKeLDvAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/twIYJ8qdn_k/maxresdefault.jpg",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:15:02.519056+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5686,11 +5768,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.LUgcqpWgz5x2YQWM-1hzoAHaFc&pid=15.1",
+      "image_full_url": "https://firehousesubsmnus.com/wp-content/uploads/2024/12/Tuna-Salad-Combo.webp",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:15:07.031856+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5703,11 +5787,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.KlfmfKy_WwK-bPMr1LEQvQHaGg&pid=15.1",
+      "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2021/03/Firehouse-Subs-Debuts-New-Pepperoni-Pizza-Meatball-Sub-Featuring-New-Garlic-Bread-Sub-Roll.jpg",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:15:11.643959+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -5720,11 +5806,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.i5f8q6HVzroRarvAzC2UXgHaHa&pid=15.1",
+      "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1282004635780923",
       "_added_at": "2026-11-15T10:40:24.303437+00:00",
-      "_updated_at": "2026-11-15T10:40:24.303437+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-11-15T11:15:16.204881+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Freddy's",
@@ -5737,11 +5825,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.9QX9a7BGO8vWYR_QsbeTnQHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/vafvGTIsD3Y/maxresdefault.jpg",
       "_added_at": "2026-11-15T11:02:59.154655+00:00",
-      "_updated_at": "2026-11-15T11:02:59.154655+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:20.601942+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Freddy's",
@@ -5754,11 +5844,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.m0xDTXlXYlDQHTzm7T2sQwHaD4&pid=15.1",
+      "image_full_url": "https://freddymenu.us/wp-content/uploads/2025/03/Freddys-Combo-Meals-Menu-1024x536.jpeg",
       "_added_at": "2026-11-15T11:02:59.154655+00:00",
-      "_updated_at": "2026-11-15T11:02:59.154655+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:25.371220+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Freddy's",
@@ -5771,11 +5863,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.b23qQu5wcMvigtr80_vMGQHaNJ&pid=15.1",
+      "image_full_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3565982925637037465",
       "_added_at": "2026-11-15T11:02:59.154655+00:00",
-      "_updated_at": "2026-11-15T11:02:59.154655+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:30.334853+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Freddy's",
@@ -5788,11 +5882,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.ZTShtD_WjPiPQdk1_YBgpwHaEK&pid=15.1",
+      "image_full_url": "https://www.provisioneronline.com/ext/resources/2023/12/21/Freddy_s_Original_Double_combo.jpg?1703324566",
       "_added_at": "2026-11-15T11:02:59.154655+00:00",
-      "_updated_at": "2026-11-15T11:02:59.154655+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:35.108150+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5805,11 +5901,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.u2u_3FnySzipfkPJr0m2SgHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2026/01/Cold-Cut-Combo.png?resize=183",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:38.818597+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5822,11 +5920,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.9q7FrRb1Z3TgD8Acv_MgkwHaHa&pid=15.1",
+      "image_full_url": "https://subway.com.my/images/menu/6inch/6-inch+Spicy+Italian.png",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:42.063698+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5839,11 +5939,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.fR7lS4dZk0-LTeVIlNJG0gHaEK&pid=15.1",
+      "image_full_url": "https://nypost.com/wp-content/uploads/sites/2/2023/11/six-inch-roast-beef-sub-73048186.jpg",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:46.562249+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5856,11 +5958,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.DJ-skMnWPIioPgtA6OTNHQHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/09/Rotisserie-Style-Chicken-Sub.jpeg?resize=183",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:50.992201+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5873,11 +5977,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.7_vQ-fiFb6y5oerU4OmwbAHaD_&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/176047962463371.png",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:54.643801+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5890,11 +5996,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.web_MwBnSZgjhDmTsJ1z3wHaCW&pid=15.1",
+      "image_full_url": "https://subway-eg.com/wp-content/uploads/2024/06/Veggie-Delite-Footlong-1-1536x488.jpg",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:15:58.013104+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5907,11 +6015,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.roSSuA9ZE_CAJNxqyA6pNAHaHa&pid=15.1",
+      "image_full_url": "https://sub-of-the-day.com/wp-content/uploads/2024/04/subway-the-philly-sandwich-768x768.png",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:01.439489+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5924,11 +6034,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.myTtgxifA6I1efik6k4UcgHaIh&pid=15.1",
+      "image_full_url": "https://subwaymenupedia.com/wp-content/uploads/2024/03/Supreme-Meats.webp",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:06.114303+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5941,11 +6053,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.cMLldroaQiVc0pyUnJK32wHaEK&pid=15.1",
+      "image_full_url": "https://files.merca20.com/uploads/2025/12/Sub-Club-Returns-to-Subway-Heres-How-the-Rewards-Program-Works-1024x576.jpg",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:10.731835+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5958,11 +6072,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.-Nr4n9L-jV8w5EFq3ncwNwHaHa&pid=15.1",
+      "image_full_url": "https://subway.com.my/images/menu/breakfast/6inch/6-inch+Breakfast_+Egg+&+Cheese.png",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:14.228678+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Subway",
@@ -5975,11 +6091,13 @@
       "drink": "20 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.jsiPCc1d9Q_T-uewuiauIgHaCr&pid=15.1",
+      "image_full_url": "https://subwayaruba.com/wp-content/uploads/2019/05/hero-breakfast-1800x650-steak-egg-and-cheese.jpg",
       "_added_at": "2026-11-15T11:04:15.863313+00:00",
-      "_updated_at": "2026-11-15T11:04:15.863313+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:18.963182+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -5992,11 +6110,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.GcyfDOSzB7ZZC0-0cssmhQHaHa&pid=15.1",
+      "image_full_url": "https://dairyqueen-prod.dotcdn.io/dA/bfa0e14405/fileAsset/Bryce-Harper-Combo.png",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:23.783348+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6009,11 +6129,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.6Bud-11cJ5bcGnngDoAkPQAAAA&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/1930_s.jpg",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:27.592096+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6026,11 +6148,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.zVRCBYhhWjOXU94cXIYihAHaHa&pid=15.1",
+      "image_full_url": "https://preview.redd.it/pai7fb3pdj421.jpg?width=640&crop=smart&auto=webp&s=1ea9b980ef73fda8c98d06666f996379949105f3",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:31.374738+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6043,11 +6167,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP.u0KwcGTNECYZHx-q38xeoQHaHa&pid=15.1",
+      "image_full_url": "https://img.zmenu.com/large/33808/20140429232006000232.png?format=auto",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:36.569118+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6060,11 +6186,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.uY9sgGoP4erOoiBJgub8YAHaE8&pid=15.1",
+      "image_full_url": "https://pricelisto-files.s3.us-east-2.amazonaws.com/dairy-queen-ca/spicy-crispy-chicken-sandwich-combo.jpeg",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:41.286662+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6077,11 +6205,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.YmPBo3rBniBW6aJwiUfhrgHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/dairy-queens-healthiest-menu-options-might-surprise-you/biscuit-breakfast-sandwich-with-ham-1694014374.jpg",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:45.302709+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6094,11 +6224,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.5aaZNW0u7gdc2_B-FcRfmQAAAA&pid=15.1",
+      "image_full_url": "https://eato.health/food-images/feast/act/dairy-queen-breakfast-sausage-egg-and-cheese-biscuit-17828702-1.webp",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:50.166388+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Dairy Queen",
@@ -6111,11 +6243,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.nbV6xkX03MZ69ku_-bYNNwHaHa&pid=15.1",
+      "image_full_url": "https://restaurantinfohub.com/wp-content/uploads/2025/03/dairy-queen-breakfast-burrito-1024x1024.jpg",
       "_added_at": "2026-11-15T11:04:32.500606+00:00",
-      "_updated_at": "2026-11-15T11:04:32.500606+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:16:54.820578+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6128,11 +6262,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.q9BogPmtzNSM3zhMDOV__AHaEO&pid=15.1",
+      "image_full_url": "https://usafoodjournal.com/Popeyes-Img/classic-chicken-sandwich-combo.png",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:00.088388+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6145,11 +6281,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.UlBxDlml7xRpkSeREXH5hgHaEK&pid=15.1",
+      "image_full_url": "https://popeyes.az/_next/image?url=https://popeyes-az.s3.eu-central-1.amazonaws.com/media/menu_photos/Chicken_Deluxe_Sandwich_Spicy_Combo.png&w=828&q=75",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:03.386301+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6162,11 +6300,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP.wunyUw362UiBmLrHI7aMSAHaJ4&pid=15.1",
+      "image_full_url": "https://i.redd.it/l8tppq8feo1d1.jpeg",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:07.288047+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6179,11 +6319,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.j1uTAbWoiI0HOpVSTCCU8AHaE2&pid=15.1",
+      "image_full_url": "https://www.popeyes.com/images/czqk28jt/prod_plk_us/f70e7716af50fad715e3b93c6b8f73e550095a5f-870x570.png?q=70&auto=format",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:12.106891+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6196,11 +6338,13 @@
       "drink": "small unsweetened iced tea",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.nwyw4a8OSidgf8EpjMw-NAHaFj&pid=15.1",
+      "image_full_url": "https://pinoycupidgifts.com/wp-content/uploads/2022/08/2pcs-chicken-biscuit-drink-popeyes.jpg",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:16.293546+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6213,11 +6357,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.2p_0bxEqmAHNFL8lk3Lg1gHaEK&pid=15.1",
+      "image_full_url": "https://www.thedailymeal.com/img/gallery/12-things-you-might-want-to-avoid-ordering-at-popeyes/the-egg-and-sausage-biscuit-is-a-monster-breakfast-1680091813.jpg",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:21.533375+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Popeyes",
@@ -6230,11 +6376,13 @@
       "drink": "small Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.Kw3TtjdMfmA6O0oz5ufRAAHaHa&pid=15.1",
+      "image_full_url": "https://popeyesmenuandprices.com/wp-content/uploads/2025/09/Double-Bacon-Egg-and-Cheese-Muffin.jpg",
       "_added_at": "2026-11-15T11:04:46.851900+00:00",
-      "_updated_at": "2026-11-15T11:04:46.851900+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:26.188910+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Sonic Drive-In",
@@ -6247,11 +6395,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.n9wKnHMF3Us7HbuYQICU8QAAAA&pid=15.1",
+      "image_full_url": "https://img.sonicmenuspot.com/2024/05/5-Piece-Crispy-Tenders-Combo.webp",
       "_added_at": "2026-11-15T11:05:02.161483+00:00",
-      "_updated_at": "2026-11-15T11:05:02.161483+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:29.880998+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Sonic Drive-In",
@@ -6264,11 +6414,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.QCCDSCsaJluKsQg-b_ut4gHaEK&pid=15.1",
+      "image_full_url": "https://sonic-menu.com/wp-content/uploads/2024/02/Sonic-restaurant-Bacon-Breakfast-Burrito.png",
       "_added_at": "2026-11-15T11:05:02.161483+00:00",
-      "_updated_at": "2026-11-15T11:05:02.161483+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:33.910071+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6281,11 +6433,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.rEWYMzgzDEjW3YnhHzC81wHaEO&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/23760_2_chicken_chalupas_supreme_combo_1400x800.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:38.997966+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6298,11 +6452,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Kj0iK6DWy_u-fiixIaWRiQAAAA&pid=15.1",
+      "image_full_url": "https://www.menutalk.food/menu-images/taco-bell/3_soft_tacos_supreme_combo.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:42.814176+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6315,11 +6471,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.toY6lMVWUFBR0-ounXOjiQHaE7&pid=15.1",
+      "image_full_url": "https://2.bp.blogspot.com/-vHwcN9FcFkA/Ucw3vdK8eqI/AAAAAAAAWeM/a9P6hZ2YV1U/s800/Taco-Bell-Cantina-Double-Steak-Quesadilla.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:47.930679+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6332,11 +6490,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.hGgj7AE6xA9gqGV8RC_jiQHaEO&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/22637_3_doritos_locos_tacos_combo_alt_1400x800.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:51.715692+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6349,11 +6509,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.TYd4JlHB8AmMSo1x0Fo7ugHaE8&pid=15.1",
+      "image_full_url": "https://people.com/thmb/qR9a9zLdKuIXhafjk9cyklCczfU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(691x419:693x421)/taco-bell-steak-queso-crunch-wrap-022725-2-d5bfc17a66a44a06a240300e8d0f7407.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:17:56.899665+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6366,11 +6528,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ZmVcQFE6BQhxBTsZE9KbBAHaFa&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2024/02/taco-bell-breakfast-quesadilla-steak.jpg?quality=82&strip=all&w=640",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:00.290379+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6383,11 +6547,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.DF9JXH-MdbM6LZyuOynwDAHaGX&pid=15.1",
+      "image_full_url": "https://breakfastmenu.org/wp-content/uploads/2025/10/taco-bell-Grande-Toasted-Breakfast-Burrito-Combo-1024x881.webp",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:05.295147+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6400,11 +6566,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.DF9JXH-MdbM6LZyuOynwDAHaGX&pid=15.1",
+      "image_full_url": "https://breakfastmenu.org/wp-content/uploads/2025/10/taco-bell-Grande-Toasted-Breakfast-Burrito-Combo-1024x881.webp",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:09.358997+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6417,11 +6585,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.cn5IAwpI5I-RDTCg5gSj7AHaHh&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/13604.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:12.846005+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6434,11 +6604,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.bZXsgBvChDHPluiUHhnUgAHaEf&pid=15.1",
+      "image_full_url": "https://www.thedailymeal.com/sites/default/files/2020/03/11/Hash_Brown_Bacon_Toasted_Breakfast_Burrito.jpg",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:17.391359+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco Bell",
@@ -6451,11 +6623,13 @@
       "drink": "medium Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.ajZ-CwawF663C05heWYd9gHaEf&pid=15.1",
+      "image_full_url": "https://imgix.bustle.com/uploads/image/2019/8/20/5f3ad59a-d9d8-411c-9118-6cd00e7dc7bf-test-_cheesy_toasted_breakfast_burrito.jpg?w=1100",
       "_added_at": "2026-11-15T11:05:33.408571+00:00",
-      "_updated_at": "2026-11-15T11:05:33.408571+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:22.614922+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6468,11 +6642,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.W1rPDivddZBOrCOH62DF-gHaFj&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/Dweb6Orncac/hqdefault.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:27.183505+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6485,11 +6661,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.WlMxnCUCLzb3SGHFbckxPQHaEZ&pid=15.1",
+      "image_full_url": "https://jimmyjohnsmenus.com/wp-content/uploads/2025/06/Jimmy-Johns-Little-John-1024x608.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:30.587377+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6502,11 +6680,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.60LFsPj7aR6F_hcnPyhSlwHaFj&pid=15.1",
+      "image_full_url": "https://chefstandards.com/wp-content/uploads/2025/04/Jimmy-Cubano.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:34.139722+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6519,11 +6699,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.nqTvu-fpRRj6L94Pba-TwQHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/popular-jimmy-johns-menu-items-ranked-worst-to-best/14-bootlegger-club-1625057823.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:38.515950+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6536,11 +6718,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.OytKNtU80tzhBrOoCjDVtgHaFh&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/ec/9e/aa/ec9eaaef31a30f37da6812fde786099c.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:43.017628+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6553,11 +6737,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.FH9rBEMvUdolwVu5njVlagHaJ4&pid=15.1",
+      "image_full_url": "https://i.redd.it/v1xu05bh7bk61.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:46.529480+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6570,11 +6756,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.OR_wdwQWy-5B_w8OmkovowHaNK&pid=15.1",
+      "image_full_url": "https://www.tiktok.com/api/img/?itemId=7122918689862634794&location=0&aid=1988",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:50.140416+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6587,11 +6775,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.yBcPon065IMYo1UqRNQkDAHaDg&pid=15.1",
+      "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2023/05/Jimmy-Johns-Adds-New-Jalapeno-Ranch-Chicken-Wrap-And-Welcomes-Back-Chicken-Caesar-And-Thai-Chicken-Wraps-For-Summer-696x329.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:18:55.181283+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6604,11 +6794,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.SAckOHW4EjtlQaV9Fd-XBQHaET&pid=15.1",
+      "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2023/09/Jimmy-Johns-Permanently-Adds-New-Tuscan-Italian-Wrap-Chicken-Caesar-Wrap-And-Jalapeno-Ranch-Chicken-Wrap-To-Menus-Nationwide-696x404.jpg",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:00.201924+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6621,11 +6813,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.SO4P60OkO5EyBN_zHZQr2gHaEC&pid=15.1",
+      "image_full_url": "https://jimmyjohnsmenu.us/wp-content/uploads/2025/03/LittleJohnCombo.webp",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:04.882413+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6638,11 +6832,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.eC-hAX3DmKP_T9QzYvrTdQHaEC&pid=15.1",
+      "image_full_url": "https://jimmyjohnsmenu.us/wp-content/uploads/2025/03/GiantJ.j.GargantuanCombo-768x419.webp",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:08.565630+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6655,11 +6851,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.2hSRyxL_ccs-m9obl-x4XgHaHa&pid=15.1",
+      "image_full_url": "https://olo-images-live.imgix.net/a3/a345c1091d834ccab1e7985c124a4939.png?auto=format,compress&q=60&cs=tinysrgb&w=536&h=536&fit=fill&fm=png32&bg=transparent&s=452924225ffa57236e3216935b8af6cc",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:12.194769+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6672,11 +6870,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.T7SIfEVgyhOJ70DVgBhNPwHaEC&pid=15.1",
+      "image_full_url": "https://jimmyjohnsmenu.us/wp-content/uploads/2025/03/J.j.GargantuanCombo-768x419.webp",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:17.076247+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6689,11 +6889,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.T7SIfEVgyhOJ70DVgBhNPwHaEC&pid=15.1",
+      "image_full_url": "https://jimmyjohnsmenu.us/wp-content/uploads/2025/03/J.j.GargantuanCombo-768x419.webp",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:21.098693+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Jimmy John's",
@@ -6706,11 +6908,13 @@
       "drink": "22 oz Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.3Rjc3QqnINwrJyQn6h0ThAHaEC&pid=15.1",
+      "image_full_url": "https://jimmyjohnsmenus.com/wp-content/uploads/2025/07/Little-John-Combo.webp",
       "_added_at": "2026-11-15T11:05:49.024585+00:00",
-      "_updated_at": "2026-11-15T11:05:49.024585+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:25.276631+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -6723,11 +6927,13 @@
       "drink": "small Diet Pepsi",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.aG7HGLgV8Ep44wz3go0RrQHaEU&pid=15.1",
+      "image_full_url": "https://www.qsrmagazine.com/wp-content/uploads/2022/09/tacojohnsfourcheesequesadilla.jpg",
       "_added_at": "2026-11-15T11:05:58.004943+00:00",
-      "_updated_at": "2026-11-15T11:05:58.004943+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:28.684422+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -6744,7 +6950,8 @@
       "image_full_url": "",
       "_added_at": "2026-11-15T11:05:58.004943+00:00",
       "_updated_at": "2026-11-15T11:05:58.004943+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Taco John's",
@@ -6757,11 +6964,13 @@
       "drink": "small Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.CYeLdI_jG-9C6xiBritYhgHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2022/09/tacoj10048_WebsiteImages_MPBCombo_2000x700.jpg",
       "_added_at": "2026-11-15T11:05:58.004943+00:00",
-      "_updated_at": "2026-11-15T11:05:58.004943+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:40.196973+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -6774,11 +6983,13 @@
       "drink": "small Diet Pepsi",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.wzuFQTtPyEwXf2sEV4pFWwHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2023/03/tacoj10048_WebsiteImages_BreakfastBurrito_Jr_Combo_2000x700.jpg",
       "_added_at": "2026-11-15T11:05:58.004943+00:00",
-      "_updated_at": "2026-11-15T11:05:58.004943+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:43.802911+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6791,11 +7002,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.2_EC6PegfC-IwN8hGzrNcgHaLH&pid=15.1",
+      "image_full_url": "https://copykat.com/wp-content/uploads/2022/09/Arbys-Buffalo-Chicken-Sandwich-Text-Pin-6.jpg",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:47.049015+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6808,11 +7021,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.1vxPTHIwGNth1efqzU05EgHaLH&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/a6/90/c1/a690c1c0c446c24c1afb3cff6b8d9589.jpg",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:51.235397+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6825,11 +7040,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.cnka59Geb9UXXaRXOb5OXAHaEK&pid=15.1",
+      "image_full_url": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1200,h_675/https://www.fastfoodclub.com/wp-content/uploads/2024/04/7-Roast-Beef-Swiss-Sandwich.png",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:55.254151+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6842,11 +7059,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.lYcHe5nzBDBRNYNVphPitQHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/6EBFkDKlYEI/maxresdefault.jpg",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:19:59.990034+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6859,11 +7078,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Cgs8ZZ8_OF2IU6BPOQu0DwHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/_oCvq1llsxE/maxresdefault.jpg",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:04.515027+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6876,11 +7097,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.rx9FYlkcXhS5SA2ppKdnRgHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/03/Chicken-tenders.jpg?resize=343",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:07.816324+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6893,11 +7116,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.0rOeK8hKH3IgRSkmkA-BQAHaE7&pid=15.1",
+      "image_full_url": "https://arbys-menu.org/wp-content/uploads/2026/04/Chicken-Tenders-3PC-Meal.webp",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:12.437232+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6910,11 +7135,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.4ngjjrv3DBM1LqUltof7GwHaEK&pid=15.1",
+      "image_full_url": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1200,h_675/https://www.fastfoodclub.com/wp-content/uploads/2024/04/arbys-new-mix-and-match-deal.png",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:16.199194+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6927,11 +7154,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.fKcRto4Mz57kbYkefKJSugHaHa&pid=15.1",
+      "image_full_url": "https://image.zmenu.com/large/22270/20140418161908851091.jpg",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:20.617290+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -6944,11 +7173,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.fKcRto4Mz57kbYkefKJSugHaHa&pid=15.1",
+      "image_full_url": "https://image.zmenu.com/large/22270/20140418161908851091.jpg",
       "_added_at": "2026-11-15T11:06:06.905807+00:00",
-      "_updated_at": "2026-11-15T11:06:06.905807+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:25.744873+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Culver's",
@@ -6961,11 +7192,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ohXCCoBoS7QsQmEYKMGdIgAAAA&pid=15.1",
+      "image_full_url": "https://culverzmenu.com/wp-content/uploads/2025/12/Beef-Pot-Roast.webp",
       "_added_at": "2026-11-15T11:06:17.737848+00:00",
-      "_updated_at": "2026-11-15T11:06:17.737848+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:29.151121+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Culver's",
@@ -6978,11 +7211,13 @@
       "drink": "medium Diet Coke",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.se5w2vVM6B9tZiZiYcIPFwHaEO&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-11-15T11:06:17.737848+00:00",
-      "_updated_at": "2026-11-15T11:06:17.737848+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-11-15T11:20:33.290396+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     }
   ],
   "restaurants": {
@@ -7163,5 +7398,5 @@
     "Moe's Southwest Grill",
     "Panda Express"
   ],
-  "updated_at": "2026-11-15T11:06:17.752962+00:00"
+  "updated_at": "2026-11-15T11:20:36.322195+00:00"
 }
