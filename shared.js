@@ -231,6 +231,8 @@ function normalizeFastItem(m){
     image_url: m.image_url || '',
     image_full_url: m.image_full_url || '',
     active: m.active,
+    meal_type: m.meal_type || '',
+    drink: m.drink || '',
     _added_at: m._added_at || '',
     _updated_at: m._updated_at || ''
   };

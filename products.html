@@ -699,7 +699,7 @@
       <td class="prod-name">${restaurant ? `<span class="prod-brand">${escHtml(restaurant)}</span>` : ''}${escHtml(name)}${sku ? `<span class="prod-sku">SKU ${escHtml(sku)}</span>` : ''}</td>
       <td class="prod-num prod-cal">${cal ? cal + ' cal' : 'N/A'}</td>
       <td class="prod-num prod-price">${price ? '$' + price.toFixed(2) : 'N/A'}</td>
-      <td class="prod-serving">${escHtml(serving)}</td>
+      <td class="prod-serving">${escHtml(serving)}${p.meal_type === 'value_meal' ? `<div style="margin-top:3px;font-size:.85em;opacity:.8"><strong>Value meal</strong>${p.drink ? ' + ' + escHtml(p.drink) : ''}</div>` : ''}</td>
       <td class="prod-cat"><div class="prod-src">${iconSvg(source === 'fast' ? 'ic-fast' : 'ic-frozen')}${SOURCE_LABELS[source]}</div><span class="prod-cat-pill ${category}">${CATEGORY_LABELS[category]}</span></td>
       ${linksCell}
       <td class="col-pick"><button type="button" class="select-btn">Select</button></td>
